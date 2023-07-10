@@ -35,7 +35,7 @@ export default function Home() {
           <div>
             <h3 className="text-xl">Track the Habit</h3>
             <a
-              href="https://www.trackthehabit.com/"
+              href="https://trackthehabit.com"
               className="text-neutral-600 flex items-center mr-2 text-sm"
               target="_blank"
               rel="noreferrer"
@@ -43,6 +43,8 @@ export default function Home() {
               <AiOutlineLink className="text-lg mr-1" /> trackthehabit.com
             </a>
             <a
+              target="_blank"
+              rel="noreferrer"
               href="https://trackthehabit.com"
               className="md:mx-12 relative md:h-[300px] md:max-w-[600px] h-[240px] max-w-[300px] flex items-center mb-4"
             >
