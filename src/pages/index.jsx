@@ -49,7 +49,7 @@ export default function Home() {
               className="md:mx-12 relative md:h-[300px] md:max-w-[600px] h-[240px] max-w-[300px] flex items-center mb-4"
             >
               <img
-                className="w-[400px] md:w-[600px] bottom-0 rounded-t-2xl border-2 border-b border-neutral-800 shadow-lg"
+                className="w-[400px] md:w-[600px] bottom-0 rounded-2xl border-2 border-neutral-800 shadow-lg"
                 src="https://i.imgur.com/9djUDXs.png"
                 alt="Image of the app in Desktop"
               />
