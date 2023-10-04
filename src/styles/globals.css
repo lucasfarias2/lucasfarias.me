@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -15,5 +16,9 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'Signika', sans-serif;
+  font-family: 'Gabarito', sans-serif;
+}
+
+.code {
+  font-family: 'Fira Code', monospace;
 }
