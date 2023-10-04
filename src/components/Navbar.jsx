@@ -7,19 +7,19 @@ const Navbar = () => {
       <div className="leading-0 text-sm flex items-center">
         <a
           href="https://www.linkedin.com/in/lucasfar/"
-          className="text-neutral-200 code flex items-center mr-1 hover:bg-neutral-200 hover:text-black rounded-lg p-2 px-4 justify-center"
+          className="text-neutral-200 code flex items-center md:mr-1 mr-4 md:hover:bg-neutral-200 md:hover:text-black rounded-lg md:p-2 md:px-4 justify-center"
           target="_blank"
           rel="noreferrer"
         >
-          <AiFillLinkedin className="text-2xl mr-1" /> LinkedIn
+          <AiFillLinkedin className="text-2xl mr-1" /> <span className="hidden md:inline-block">LinkedIn</span>
         </a>
         <a
           href="https://github.com/lucasfarias2"
-          className="text-neutral-200 code flex items-center hover:bg-neutral-200 hover:text-black rounded-lg p-2 px-4 justify-center"
+          className="text-neutral-200 code flex items-center md:hover:bg-neutral-200 md:hover:text-black rounded-lg md:p-2 md:px-4 justify-center"
           target="_blank"
           rel="noreferrer"
         >
-          <AiFillGithub className="text-2xl mr-1" /> Github
+          <AiFillGithub className="text-2xl mr-1" /> <span className="hidden md:inline-block">Github</span>
         </a>
       </div>
     </nav>
