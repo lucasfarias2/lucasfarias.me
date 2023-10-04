@@ -53,7 +53,7 @@ const HomeItem = ({ title, description, bgColorClass, website, imgSrc, Icon, git
           )}
 
           <a
-            href={website}
+            href={github}
             target="_blank"
             rel="noreferrer"
             className="text-black font-medium p-2 border rounded-lg text-sm hover:bg-black hover:text-white flex items-center justify-center"
